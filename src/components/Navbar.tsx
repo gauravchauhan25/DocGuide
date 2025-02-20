@@ -1,6 +1,7 @@
 import { Menu, X, Bot, Home, Info, MessageSquare, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import docGenie from '../img/docgenie.jpg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <div className="relative">
-                <Bot className="h-12 w-12 text-white" />
+                <img className="h-12 w-12 text-white rounded-full" src={docGenie} />
                 <div className="absolute -top-1 -right-1 bg-yellow-400 rounded-full p-1">
                   <div className="h-2 w-2 bg-blue-600 rounded-full animate-pulse"></div>
                 </div>
