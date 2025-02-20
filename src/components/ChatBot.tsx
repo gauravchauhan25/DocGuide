@@ -65,7 +65,7 @@ export default function ChatBot() {
     <div className="flex flex-col h-[600px] bg-white rounded-xl shadow-2xl">
       <div className="flex items-center p-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 rounded-t-xl">
         <img
-          src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=200"
+          src={docGenie}
           alt="DocGenie"
           className="h-8 w-8 rounded-full"
         />
