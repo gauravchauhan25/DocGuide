@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Send } from 'lucide-react';
 import { motion } from 'framer-motion';
+import docGenie from '../img/docgenie.jpg';
 
 interface Message {
   text: string;
@@ -80,7 +81,7 @@ export default function ChatBot() {
             className="relative"
           >
             <img
-              src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=200"
+              src={docGenie}
               alt="DocGenie Bot"
               className="h-24 w-24 rounded-full"
             />
